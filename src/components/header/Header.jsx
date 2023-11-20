@@ -1,4 +1,3 @@
-// import React from 'react';
 import Styles from './Header.module.css';
 import monkurl from '../../assets/monkey.png';
 import { useState } from "react";

@@ -1,0 +1,49 @@
+.container{
+    height:46px;
+    width:233px;
+}
+
+.container a{
+    display:block;
+    text-align:center;
+    padding-top:10px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+.whiteButton:hover{
+    background-color: black;
+    border: 2px solid white;
+}
+
+.whiteButton{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.whiteButton a{
+    color:black;
+}
+
+.whiteButton:hover a{
+    color:white;
+}
+
+.blackButton{
+    background-color: black;
+    border: 2px solid white;
+}
+
+.blackButton:hover{
+    background-color: white;
+    border: 2px solid black;
+}
+
+.blackButton a{
+    color:white;
+}
+
+.blackButton:hover a{
+    color:black;
+}

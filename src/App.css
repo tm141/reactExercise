@@ -2,8 +2,13 @@
   margin: 0;
   padding: 0;
   --color-base: white;
-  --color-primary: #FDD460;
-  font-family:  monospace, 'Courier New', Courier;
+  --color-primary: #fdd360;
+  --color-primary-rgb: 253,212,96;
+  --color-primary-triadic-1: #60fdd4;
+  --color-primary-triadic-2: #d460fd;
+  /* font-family:  monospace, 'Courier New', Courier; */
+  font-family:  sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+  font-size: 1.1rem;
 }
 
 /* #root {
