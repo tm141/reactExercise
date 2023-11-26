@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
 .container {
-    width:100vw;
     height: 669px;
     background-color: var(--color-primary);
     z-index: -1;
 }
 
+.container > *{
+  font-size:1.1rem;
+}
+
 .monkImg {
     height: 560px;
     margin-top: 6.3rem;
-    margin-left: 17vw;
+    margin-left: var(--margin);
     border-left: solid var(--color-base) 8px;
     border-top: solid var(--color-primary) 8px;
 }
@@ -23,7 +23,7 @@
 
 .detail{
     margin: auto 0;
-    margin-left:100px;
+    margin-left:200px;
     margin-right:auto;
 }
 
@@ -37,7 +37,6 @@
 
 .hello p {
     display:block;
-    /* margin-bottom:10px; */
     font-weight: bold;
     font-size: 5.5rem;
     font-family: Oswald, sans-serif !important;

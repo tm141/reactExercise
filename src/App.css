@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +9,9 @@
   --color-primary-rgb: 253,212,96;
   --color-primary-triadic-1: #60fdd4;
   --color-primary-triadic-2: #d460fd;
+  --margin: 17vw;
   /* font-family:  monospace, 'Courier New', Courier; */
   font-family:  sans-serif,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
-  font-size: 1.1rem;
 }
 
 /* #root {

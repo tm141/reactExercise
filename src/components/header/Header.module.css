@@ -29,13 +29,12 @@
 
 .navbarWrap {
     height: 65px;
-    width: 100vw;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 2vh 17vw;
+    margin: 2vh var(--margin);
 }
 
 .monkImg{
@@ -53,7 +52,6 @@
 }
 
 .sideBar{
-    /* height:100vh; */
     margin-top: 26px;
     float:right;
     display:flex;

@@ -18,7 +18,6 @@ export default function Hero() {
                         content1='READ MORE'
                         ref1='#'
                     />
-                    {/* <Button /> */}
                 </div>
             </div>
         </div>
